@@ -1,0 +1,15 @@
+# No subir resultados de análisis (pueden tener rutas locales)
+deobfuscated_strings.json
+iocs_completos.json
+*.stix.json
+clickfix_check_*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# No subir malware sin empaquetar
+*.exe
+*.dll
+*.zip
+*.bin
