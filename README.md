@@ -54,7 +54,7 @@ powershell -ExecutionPolicy Bypass -File clickfix_infection_check.ps1
 
 ```
 DOMINIOS (bloquear en DNS/proxy):
-  fepafut[.]com          ← sitio de entrega (CAPTCHA falso)
+  dominio[.]com          ← sitio de entrega (CAPTCHA falso)
   ccudmcx[.]xyz/u           ← host del stager PowerShell
   ccudmcx[.]xyz/update.zip    ← host del dropper ZIP
   chimefusion[.]com      ← C2 activo (beacon cada 65s)
